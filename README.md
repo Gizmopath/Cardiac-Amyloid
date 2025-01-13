@@ -12,12 +12,12 @@ Cardiac amyloidosis is characterized by the extracellular deposition of amyloid 
 - **Explainability**: Grad-CAM overlays to visualize regions influencing model predictions.
 
 ### Results
-Classification (Validation metrics)
+- Classification (Validation metrics)
   Accuracy: 0.93
   F1 Score: 0.93
   Precision: 0.93
   Recall: 0.94
-Segmentation
+- Segmentation
   Intersection over Union (IoU):
     Training: 0.70
     Validation: 0.60
