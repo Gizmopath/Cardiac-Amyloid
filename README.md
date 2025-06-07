@@ -22,10 +22,10 @@ Cardiac amyloidosis is a condition marked by the extracellular deposition of amy
 ### Classification (Validation Metrics)
 - **Accuracy**: `0.79`  
 - **F1 Score**: `0.71`  
-- **AUC-ROC**: '0.76'
+- **AUC-ROC**: `0.76`
 
 ### Segmentation
-- **Dice Coefficient**: '0.37'  
+- **Dice Coefficient**: `0.37`  
 
 ## 📦 Pre-Trained Models
 
