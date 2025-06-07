@@ -9,10 +9,10 @@ Cardiac amyloidosis is a condition marked by the extracellular deposition of amy
 ## Key Features
 
 - **Tile Classification**:  
-  A ResNet18-based Convolutional Neural Network (CNN) for binary classification of tiles as amyloid-positive or amyloid-negative.
+  An EfficientNet-based Convolutional Neural Network (CNN) for binary classification of tiles as amyloid-positive or amyloid-negative.
   
 - **Segmentation**:  
-  A U-Net model for precise, pixel-wise segmentation of amyloid deposits.
+  A Segformer model for precise, pixel-wise segmentation of amyloid deposits.
   
 - **Explainability**:  
   Grad-CAM overlays highlight regions most influential in model predictions, enhancing interpretability.
@@ -20,21 +20,18 @@ Cardiac amyloidosis is a condition marked by the extracellular deposition of amy
 ## Results
 
 ### Classification (Validation Metrics)
-- **Accuracy**: `0.93`  
-- **F1 Score**: `0.93`  
-- **Precision**: `0.93`  
-- **Recall**: `0.94`
+- **Accuracy**: `0.79`  
+- **F1 Score**: `0.71`  
+- **AUC-ROC**: '0.76'
 
 ### Segmentation
-- **Intersection over Union (IoU)**:  
-  - Training: `0.70`  
-  - Validation: `0.60`  
+- **Dice Coefficient**: '0.37'  
 
 ## 📦 Pre-Trained Models
 
 You can download our pre-trained models for immediate use:  
-- **Tile Classification**: [resnet18.pth](#)  
-- **Segmentation**: [unet_amyloid.h5](#)  
+- **Tile Classification**: [efficientnet_amyloid.pth](#)  
+- **Segmentation**: [segformer_amyloid.h5](#)  
 
 ## Prerequisites
 
